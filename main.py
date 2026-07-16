@@ -4,7 +4,7 @@ import sqlite3
 import os
 import plotly.express as px
 from lp_solver import BranchAllocationSolver
-from genetic_solver import GeneticSolver
+from genetic_solver import BankGeneticScheduler
 
 
 # تنظیم هدر استریم‌لیت
