@@ -3,11 +3,8 @@ import pandas as pd
 import sqlite3
 import os
 import plotly.express as px
-import sys
-import os
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-
-from modules.lp_solver import BranchAllocationSolver
+from lp_solver import BranchAllocationSolver
+from genetic_solver import GeneticSolver
 from modules.genetic_solver import BankGeneticScheduler
 
 # تنظیم هدر استریم‌لیت
